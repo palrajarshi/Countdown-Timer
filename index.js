@@ -60,6 +60,7 @@ btn1.addEventListener("click", () => {
   IntervalID = setInterval(timer, 1000);
 });
 
+// Timer Logic
 const timer = () => {
   console.log("inside interval");
   if (s > 0 || m > 0 || h > 0) {
@@ -84,6 +85,8 @@ const timer = () => {
   }
   display.textContent = formattime();
 };
+
+// Audio
 let a;
 const playaudio = () => {
   audioplayer.play();
