@@ -23,9 +23,9 @@ btn4.addEventListener("click", () => {
 // Check Values
 const values = () => {
   console.log("Inside values");
-  const invalidsec = isNaN(s);
-  const invalidmin = isNaN(m);
-  const invalidhour = isNaN(h);
+  const invalidsec = isNaN(s); //checks whether the value provided is NaN or not! returns true or false
+  const invalidmin = isNaN(m); //checks whether the value provided is NaN or not! returns true or false
+  const invalidhour = isNaN(h); //checks whether the value provided is NaN or not! returns true or false
   return invalidsec || invalidmin || invalidhour;
 };
 // Format Time
