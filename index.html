@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- CSS ICONS -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    /> -->
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500&family=Josefin+Sans&family=Lato&family=Libre+Baskerville&family=Pacifico&family=Quicksand:wght@500&family=Raleway:wght@500&family=Roboto+Slab&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading"><h3>Awesome Timer!</h3></div>
+      <div id="display" class="time">00:00:00</div>
+      <div class="btn-box">
+        <button class="btn" id="btn1">Start</button>
+        <button class="btn" id="btn2">Stop</button>
+        <button class="btn" id="btn3">Reset</button>
+        <button class="btn" id="btn4">Set Timer</button>
+      </div>
+    </div>
+    <audio
+      id="audioplayer"
+      src="audio/alarm-clock-short-6402.mp3"
+      type="audio/mpeg"
+    ></audio>
+    <script src="index.js"></script>
+  </body>
+</html>
